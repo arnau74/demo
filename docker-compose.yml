@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  demoapp:
+    image: dtrhackathon.cloudspc.it/ecaas/demoapp:1.1
+    build:
+      context: ./
+    labels:
+      - "com.dxc.ecaas.friendlyname=Demo app"
+    deploy:
+      labels:
+        - "ecaas.external.port=8080"
+        - "ecaas.external.host=demoapp"
