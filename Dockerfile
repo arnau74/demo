@@ -1,6 +1,8 @@
 ########################################################################
 # BUILDER CONTAINER
-
+#
+##
+#
 # Set up build environment
 FROM maven:3-jdk-8-alpine as builder
 WORKDIR /src
