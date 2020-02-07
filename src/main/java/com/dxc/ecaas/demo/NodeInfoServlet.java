@@ -29,8 +29,8 @@ public class NodeInfoServlet extends HttpServlet {
 	writer.println("<hr/>");
 
 	/* Put your content here */
-	writer.println("<h1>Hello from the ECaaS team from Italy!</h1>");
-    writer.println("<h1>Hello Antonio Arnau!</h1>");
+	writer.println("<h1>Hello from the "SE Core Delivery Skills and Development Plan" Team 8!</h1>");
+        writer.println("<h1>Hello Antonio Arnau!</h1>");
 	/* HTML trailer */
 	writer.println("</body>\n</html>");
 
