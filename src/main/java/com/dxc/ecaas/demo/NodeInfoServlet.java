@@ -29,7 +29,7 @@ public class NodeInfoServlet extends HttpServlet {
 	writer.println("<hr/>");
 
 	/* Put your content here */
-	writer.println("<h1>Work in progress!!</h1>");
+	writer.println("<h1>Welcome on T8 Web Portal!</h1>");
 	/* HTML trailer */
 	writer.println("</body>\n</html>");
 
