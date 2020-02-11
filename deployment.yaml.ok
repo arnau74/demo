@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    run: my-demo
+  name: my-demo
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      run: my-demo
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        run: my-demo
+    spec:
+      containers:
+      - image: t8coredelivery.azurecr.io/demoapp:latest
+        imagePullPolicy: Always
+        name: my-demo
+        ports:
+        - containerPort: 8080
+        resources: {}
+status: {}
